@@ -1,0 +1,252 @@
+.PagesHeader{
+    background-image: url(../images/wedding/IMG_0966.jpg) ;
+   background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    /* background-position: center; */
+    background-position: 10% 10%;
+}
+
+.PagesHeaderContent{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+}
+
+
+.PagesHeaderContent h1{
+    font-size: 45px;
+    font-weight: 900;
+    color: white;
+}
+
+.theLearnmoreBtn{
+    display: block;
+    margin: 0px auto;
+    color: white;
+    border: 1px solid white;
+    font-size: 13px;
+    text-align: center;
+    width: 55%;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+
+.PagesHeader2{
+    background-image: url(../images/birthday/IMG_2285.jpg) ;
+   background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    /* background-position: center; */
+    background-position: 10% 10%;
+}
+
+.PagesHeaderContent2{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+}
+
+.PagesHeaderContent2 h1{
+    font-size: 45px;
+    font-weight: 900;
+    color: white;
+}
+
+
+
+.PagesHeader3{
+    background-image: url(../images/campaign/IMG_9512.jpg) ;
+   background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    /* background-position: center; */
+    background-position: 10% 10%;
+}
+
+.PagesHeaderContent3{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+}
+
+.PagesHeaderContent3 h1{
+    font-size: 45px;
+    font-weight: 900;
+    color: white;
+}
+
+
+
+
+.PagesHeader4{
+    background-image: url(../images/apartments/IMG_2747.jpg) ;
+   background-repeat: no-repeat;
+    height: 450px;
+    background-size: cover;
+    /* background-position: center; */
+    background-position: 10% 10%;
+}
+
+.PagesHeaderContent4{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+}
+
+.PagesHeaderContent4 h1{
+    font-size: 45px;
+    font-weight: 900;
+    color: white;
+}
+
+
+
+@media only screen and (min-width: 710px) and (max-width: 1200px)  {
+
+    .PagesHeaderContent{
+        position: absolute;
+        top: 25%;
+        left: 40%;
+    }
+    
+
+.PagesHeaderContent2{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+
+.PagesHeaderContent3{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+
+.PagesHeaderContent4{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+
+}
+
+@media only screen and (min-width: 100px) and (max-width: 700px) {
+
+    .PagesHeader{
+        background-image: url(../images/wedding/IMG_0966.jpg) ;
+       background-repeat: no-repeat;
+        height: 400px;
+        background-size: cover;
+        /* background-position: center; */
+        background-position: 10% 10%;
+    }
+
+    .PagesHeaderContent{
+        position: absolute;
+        top: 35%;
+        left: 35%;
+    }
+    
+    
+    .PagesHeaderContent h1{
+        font-size: 25px;
+        font-weight: 900;
+        color: white;
+    }
+
+    .theLearnmoreBtn{
+        display: block;
+        margin: 0px auto;
+        color: white;
+        border: 1px solid white;
+        font-size: 13px;
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+
+  
+    
+
+    .PagesHeader2{
+        background-image: url(../images/birthday/IMG_2285.jpg) ;
+       background-repeat: no-repeat;
+        height: 400px;
+        background-size: cover;
+        /* background-position: center; */
+        background-position: 10% 10%;
+    }
+
+
+    .PagesHeaderContent2{
+        position: absolute;
+        top: 35%;
+        left: 35%;
+    }
+    
+    
+    .PagesHeaderContent2 h1{
+        font-size: 25px;
+        font-weight: 900;
+        color: white;
+    }
+
+
+
+
+    .PagesHeader3{
+        background-image: url(../images/campaign/IMG_9512.jpg) ;
+       background-repeat: no-repeat;
+        height: 400px;
+        background-size: cover;
+        /* background-position: center; */
+        background-position: 10% 10%;
+    }
+
+    .PagesHeaderContent3{
+        position: absolute;
+        top: 35%;
+        left: 35%;
+    }
+    
+    
+    .PagesHeaderContent3 h1{
+        font-size: 25px;
+        font-weight: 900;
+        color: white;
+    }
+
+
+
+    .PagesHeader4{
+        background-image: url(../images/apartments/IMG_2747.jpg) ;
+       background-repeat: no-repeat;
+        height: 400px;
+        background-size: cover;
+        /* background-position: center; */
+        background-position: 10% 10%;
+    }
+
+
+    .PagesHeaderContent4{
+        position: absolute;
+        top: 35%;
+        left: 35%;
+    }
+    
+    
+    .PagesHeaderContent4 h1{
+        font-size: 25px;
+        font-weight: 900;
+        color: white;
+    }
+    
+
+}

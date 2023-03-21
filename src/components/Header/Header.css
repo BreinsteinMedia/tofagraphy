@@ -1,0 +1,233 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  height: 75px;
+  position: fixed;
+  width: 100%;
+  /* position: sticky; */
+  /* position: -webkit-sticky; */
+  z-index: 999;
+  top: 0;
+  border-radius: 2px;
+  background-color: black;
+  /* background-color: rgba(0, 0, 0, 0); */
+}
+
+.navbar.active{
+  background-color: rgba(0, 0, 0, 0.508);
+  /* background: rgba(255, 10, 10, 0.1); */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(19.5px);
+  backdrop-filter: blur(19.5px);
+  transition: .05s;
+}
+
+.logo img{
+  width: 120px;
+  height: 70px; 
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+.nav-links {
+    display: none;
+  }
+
+
+  a {
+      text-decoration: none;
+      font-size: 22px;
+  
+  }
+  li {
+      list-style-type: none;
+  }
+
+  
+
+.nav-links-mobile {
+  position: absolute;
+  display: block;
+  top: 90%;
+  left: 0;
+  position: absolute;
+  display: block;
+  list-style: none;
+  box-shadow: rgba(252, 252, 255, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  left: 0;
+  top: 90%;
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+  /* background-color: black;  */
+  height: 100vh; 
+}
+
+.video-dark-overlay{
+  background-color: rgba(0, 0, 0, 0.739);
+  min-width: 100%;
+  position: fixed;
+  z-index: -997;
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.videoBG{
+  position: fixed;
+  top: -18px;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  z-index: -999;
+}
+
+.nav-links-mobile li{
+  transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+ul li {
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  color: white;
+  font-family: "Karla";
+  font-size: 50px;
+  padding-top: 15px;
+  font-weight: 900;
+}
+
+.header1{
+  animation: slideUpFromBottom 500ms;
+
+}
+
+
+.header2{
+  animation: slideUpFromBottom 700ms;
+
+}
+
+
+.header3{
+  animation: slideUpFromBottom 900ms;
+
+}
+
+
+.header4{
+  animation: slideUpFromBottom 1100ms;
+
+}
+
+
+.header5{
+  animation: slideUpFromBottom 1300ms;
+
+}
+
+
+
+ul li:hover{
+  color: grey;
+}
+
+.mobile-menu-icon {
+  position: absolute;
+  display: block;
+  right: 50px;
+  color: white;
+}
+
+.bars{
+  width: 30px;
+  height: 30px;
+  color: white;
+
+}
+
+
+
+
+@media (max-width: 768px) {
+
+  .videoBG{
+    position: fixed;
+    top: -20%;
+    left: 0;
+    width: 100%;
+    height: 120vh;
+    object-fit: cover;
+    z-index: -999;
+  }
+
+
+}
+
+@media screen and (max-width:420px){
+  .mobile-menu-icon {
+    position: absolute;
+    display: block;
+    right: 30px;
+    color: white;
+  }
+
+  .logo img{
+    width: 150px;
+    height: 60px; 
+    padding-top: 10px;
+    padding-left: 80px;
+  }
+
+  .logo{
+    margin-left: -50px;
+  }
+
+  ul li {
+
+    font-size: 25px;
+    font-weight: 900;
+  }
+
+
+  .videoBG{
+    position: fixed;
+    top: -20%;
+    left: 0;
+    width: 100%;
+    height: 120vh;
+    object-fit: cover;
+    z-index: -999;
+  }
+  
+}
+
+
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideUpFromBottom {
+  0% {
+    transform: translateY(70%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} 

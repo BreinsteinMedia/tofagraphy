@@ -1,0 +1,134 @@
+.OurServices{
+  display: block;
+  padding: 30px 250px; 
+  text-align: center;
+  background-color:black;
+  height: auto;
+ }
+
+ .OurServices h6{
+  padding-top: 10px;
+  font-family: "Rubik";
+
+ }
+
+ .OurServices h1{
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+  font-family: "Karla";
+ }
+
+ .OurServicesContent{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  .OurServicesContentItem{
+    display: block;
+    margin: 10px auto;
+  }
+
+  .OurServicesContentItem2{
+    display: block;
+    margin: 10px auto;
+  }
+
+  .OurServicesContentSvg1{
+    width: 45px;
+    height: 45px;
+    display: block;
+    margin: 10px auto;
+  }
+
+  .OurServicesContentSvg2{
+    width: 45px;
+    height: 45px;
+    display: block;
+    margin: 10px auto;
+  }
+
+  .OurServicesContentSvg3{
+    width: 45px;
+    height: 45px;
+    display: block;
+    margin: 10px auto;
+  }
+
+ 
+
+
+
+  @media only screen and (min-width: 710px) and (max-width: 1200px)  {
+
+    .OurServices{
+      display: block;
+      /* margin: 30px auto; */
+      padding: 30px 100px; 
+      text-align: center;
+      
+     }
+
+  }
+
+
+  @media only screen and (min-width: 100px) and (max-width: 700px){
+
+    .OurServicesContent{
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      padding-top: 20px;
+      justify-content: center;
+      align-items: center;
+     
+    }
+
+    .OurServices{
+      display: block;
+      margin: 0px auto;
+      padding: 30px; 
+      text-align: center;
+      
+     }
+  
+
+ .OurServices h1{
+  font-size: 20px;
+  padding: 0px;
+  font-weight: 800;
+  font-family: "Karla";
+ }
+
+
+ .OurServicesContentSvg1{
+  width: 45px;
+  height: 45px;
+  display: block;
+  margin: 10px auto;
+}
+
+.OurServicesContentSvg2{
+  width: 45px;
+  height: 45px;
+  display: block;
+  margin: 15px auto;
+}
+
+.OurServicesContentSvg3{
+  width: 45px;
+  height: 45px;
+  display: block;
+  margin: 10px auto;
+}
+
+.OurServicesContentItem2 p{
+    width: 90%;
+  display: block;
+  margin: 10px auto;
+}
+
+  }

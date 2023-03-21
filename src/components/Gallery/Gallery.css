@@ -1,0 +1,202 @@
+
+.gallery-cont{
+    width:100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-pack: center;
+    z-index: -999;
+    
+}
+
+.carsl2 {
+    overflow: hidden;
+    position: fixed;
+    background-color: rgb(17, 22, 37);
+    top: 0;
+    left: 0;
+    z-index: -999;
+  }
+
+  .inner-carsl2 {
+    display: flex;
+    height: 100%; 
+    min-width: 108rem;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .carsl2-item {
+    max-height: 100%;
+    max-width: 100%;
+    margin-right: 15px;
+    text-align: center;
+    display: block;
+    margin-top: -2rem;
+    pointer-events: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+  }
+
+  .carsl2-item::-webkit-scrollbar{
+    display: none;
+  }
+
+  .carsl2-item img {
+    width: 100%;
+    height: 26rem;
+    pointer-events: none;
+    object-fit: cover;
+    margin-top: 15px;
+  }
+
+  .top-offset{
+    /* scroll-padding-top: 200px; */
+  }
+
+
+  .galleryOption{
+    position: absolute;
+    top: 37%;
+    left: 37%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+}
+
+.galleryOptions{
+    display: block;
+    margin: 0px auto;
+
+
+}
+.galleryOption h1{
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+    font-family: "Karla";
+}
+
+.galleryOption h4{
+    font-size: 25px;
+    color: white;
+    font-family: "Rubik";
+ 
+   
+}
+.GalleryBtn{
+
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    margin: 15px auto 10px auto;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 40%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 900; 
+    cursor: pointer;  
+}
+.gbtn{
+  position: relative;
+
+}
+
+.GalleryBtn:hover{
+    color: grey;
+
+} 
+
+
+@media only screen and (min-width: 710px) and (max-width: 1200px){
+
+  .galleryOption{
+    position: absolute;
+    top: 37%;
+    left: 33%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+}
+
+}
+
+@media only screen and (min-width: 100px) and (max-width: 700px){
+
+
+.galleryOption{
+    position: absolute;
+    top: 35%;
+    left: 28%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+}
+
+.galleryOptions{
+    display: block;
+    margin: 0px auto;
+
+}
+
+.galleryOption h1{
+    font-size: 35px;
+    font-weight: 900;
+    color: white;
+    font-family: "Karla";
+  
+}
+
+.galleryOption h4{
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    font-family: "Rubik";
+}
+
+
+.GalleryBtn{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-size: 15px;
+    width: 70%;
+
+}
+
+.inner-carsl2 {
+  display: flex;
+  height: 100%; 
+  min-width: 83rem;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+
+
+      
+
+}
+
+.dark-overlay{
+    background-color: rgba(0, 0, 0, 0.322);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -999;
+}

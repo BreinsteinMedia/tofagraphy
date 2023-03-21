@@ -1,0 +1,226 @@
+.AboutMe{
+    padding: 20px 80px;
+}
+
+.AboutMe h6{
+    font-size: 15px;
+    text-align: center;
+}
+
+.AboutMe h3{
+    font-size: 30px;
+    text-align: center;
+    width: 30%;
+    display: block;
+    margin: 10px auto;
+
+}
+
+.AboutMeContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.AboutMeContent1, .AboutMeContent2, .AboutMeContent3{
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.AboutMeContentSvg{
+    display: block;
+    margin: 10px auto;
+    width: 40px;
+    height: 40px;
+    color: white;
+
+}
+
+.AboutMeContent h2{
+    font-size: 20px;
+}
+
+.AboutMeSecond{
+    display: flex;
+    margin-top: 30px;
+}
+
+.AboutMeSecondImg{
+    width: 50%;
+    margin-left: 40px;
+
+}
+
+.AboutMeSecondContent{
+    width: 50%;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+.AboutMeSecondContent h1{
+    width: 60%;
+    font-size: 30px;
+}
+
+.AboutMeSecondContent p{
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.AboutMeSecondInnerContent{
+    margin-top: 20px;
+}
+
+.AboutMeSecondContent h4{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.AboutMeSecondContent h5{
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.AboutMeBtn{
+
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    margin: 30px ;
+    border: 1px solid white;
+    width: 50%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 900;  
+}
+
+.AboutMeBtn:hover{
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,black 0 -3px 0 inset;
+    transform: translateY(-3px);
+    color: grey;
+  }
+
+
+
+  @media only screen and (min-width: 710px) and (max-width: 1200px) {
+
+
+.AboutMe h3{
+    font-size: 30px;
+    text-align: center;
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+
+}
+
+
+.AboutMeSecond{
+    display: block;
+    margin: 20px auto;
+}
+
+
+.AboutMeSecondImg{
+    width: 90%;
+    margin-left: 0px;
+    display: block;
+    margin: 0px auto;
+}
+
+.AboutMeSecondContent{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.AboutMeSecondContent h1{
+    width: 100%;
+    font-size: 23px;
+    text-align: center;
+    font-weight: 900;
+}
+
+
+.AboutMeBtn{
+
+display: block;
+text-align: center;
+background-color: transparent;
+color: white;
+margin: 30px ;
+border: 1px solid white;
+width: 50%;
+padding: 10px;
+font-size: 12px;
+font-weight: 900;  
+}
+
+
+  }
+
+
+
+  @media only screen and (min-width: 100px) and (max-width: 700px) {
+
+    .AboutMe{
+        padding: 20px;
+    }
+
+    .AboutMe h3{
+        font-size: 20px;
+        text-align: center;
+        width: 80%;
+        display: block;
+        margin: 10px auto;
+    
+    }
+
+    .AboutMeContent h2{
+        font-size: 15px;
+    }
+
+    .AboutMeSecond{
+        display: block;
+        margin: 10px auto;
+    }
+
+    .AboutMeSecondImg{
+        width: 100%;
+        margin-left: 0px;
+    
+    }
+    
+    .AboutMeSecondContent{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .AboutMeSecondContent h1{
+        width: 80%;
+        font-size: 20px;
+    }
+
+
+.AboutMeBtn{
+
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    margin: 30px ;
+    border: 1px solid white;
+    width: 70%;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 900;  
+}
+
+  }

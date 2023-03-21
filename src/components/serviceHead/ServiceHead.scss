@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+
+
+.serviceHead {
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+	overflow-x: hidden;
+	display: grid;
+	place-items: center;
+}
+
+
+.wrapper {
+	text-align: center;
+	h1 {
+		color: #fff;
+		font-size: 40px;
+		text-transform: uppercase;
+		font-weight: 700;
+		background: linear-gradient(to right,#095fab 10%, black 50%, #57d75b 60%);
+		background-size: auto auto;
+		background-clip: border-box;
+		background-size: 200% auto;
+        font-family: 'Inter', sans-serif;
+		background-clip: text;
+		text-fill-color: transparent;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: textclip 1.5s linear infinite;
+		display: inline-block;
+	}
+}
+
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}

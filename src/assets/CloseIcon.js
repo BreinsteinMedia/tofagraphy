@@ -1,0 +1,21 @@
+import React from 'react'
+import "./icons.scss"
+
+function CloseIcon() {
+  return (
+    <div>
+        <div>
+    <span className="menu-control-open" id="menuControlOpen">
+      {/* <svg width="10" height="15">
+          <circle r="3" cx="5" cy="5"></circle>
+          <line x1="5" x2="5" y1="7" y2="13"></line>
+      </svg> */}
+      <p>CLOSE</p>
+    </span>
+    </div> 
+
+    </div>
+  )
+}
+
+export default CloseIcon

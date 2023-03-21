@@ -1,0 +1,282 @@
+#Portfolio{
+    padding: 50px 50px;
+    width: 100%;
+    background-color: black;
+}
+
+#Portfolio h4{
+    text-align: center;
+    font-size: 15px;
+    font-family: "Rubik";
+}
+
+#Portfolio h1{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding: 0px 20px;
+    font-family: "Karla";
+    font-weight: 900;
+}
+
+#Portfolio p{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.galleryMain{
+    -webkit-column-count: 3 ;
+    -moz-column-count: 3 ;
+    column-count: 3 ;
+    -webkit-column-width: 25% ;
+    -moz-column-width: 25% ;
+    column-width: 25% ;
+    padding: 0px 20px;
+}
+
+.galleryMain img{
+    width: 100%;
+    height: auto;
+   
+}
+
+.galleryMain .pics{
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+    padding-top: 10px;
+    cursor: pointer;
+    margin-bottom: 12px;
+
+}
+
+.galleryMain .pics:hover{
+    filter: opacity(.8);
+}
+
+.portfolioBtn{
+
+        display: block;
+        text-align: center;
+        background-color: transparent;
+        color: white;
+        margin: 30px auto 10px auto;
+        border: 1px solid white;
+        border-radius: 50px;
+        width: 10%;
+        padding: 10px;
+        font-size: 15px;
+        font-weight: 900;   
+}
+
+
+.otherPortfolio{
+    display: flex;
+    background-color: black;
+}
+
+
+.otherPortfolio1{
+    width: 100%;
+    padding: 0px 20px;
+    background-color: black;
+
+}
+
+
+.otherPortfolio2{
+    width: 80%;
+    padding: 0px 50px;
+}
+
+
+.otherPortfolio2 img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 30% 30%;
+
+}
+
+.otherPortfolio1 h2{
+    color: white;
+    margin: 70px 100px 50px 100px; 
+    font-size: 30px;
+    width: 65%;
+}
+
+.otherPortfolio1 p{
+    color: white;
+    margin: 20px 150px ;
+    font-size: 20px;
+    width: 65%;
+
+}
+
+
+@media only screen and (min-width: 710px) and (max-width: 1200px) {
+
+    .galleryMain{
+        -webkit-column-count: 3 ;
+        -moz-column-count: 3 ;
+        column-count: 3 ;
+        -webkit-column-width: 25% ;
+        -moz-column-width: 25% ;
+        column-width: 25% ;
+        padding: 0px;
+    }
+
+
+.otherPortfolio{
+    display: block;
+    background-color: black;
+    height: auto;
+}
+
+.otherPortfolio1{
+    width: 100%;
+    padding: 0px 0px;
+    background-color: black;
+
+}
+
+.otherPortfolio1 h2{
+    color: white;
+    margin: 0px 100px 50px 100px; 
+    font-size: 30px;
+    width: 80%;
+}
+
+
+.otherPortfolio2{
+    width: 100%;
+    padding: 0px 20px;
+}
+
+    .portfolioBtn{
+
+        display: block;
+        text-align: center;
+        background-color: transparent;
+        color: black;
+        margin: 30px auto 10px auto;
+        border: 1px solid black;
+        border-radius: 50px;
+        width: 40%;
+        padding: 10px;
+        font-size: 15px;
+        font-weight: 900;   
+}
+
+.otherPortfolio2 img{
+    width: 80%;
+    height: 500px;
+    margin: 0px auto;
+    display: block;
+    padding: 20px;
+    
+
+}
+
+    
+
+  }
+
+
+
+
+  @media only screen and (min-width: 100px) and (max-width: 700px){
+
+    #Portfolio{
+        padding: 50px 40px;
+        width: 100%;
+        background-color: black;
+    }
+    
+    .galleryMain{
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        padding: 0px;
+    }
+
+
+#Portfolio h1{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 0px 20px;
+    font-family: "Karla";
+    font-weight: 900;
+}
+
+
+.otherPortfolio{
+    display: block;
+}
+
+
+.otherPortfolio1{
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+
+}
+
+.otherPortfolio2{
+    width: 100%;
+    padding: 20px;
+}
+
+
+.otherPortfolio2 img{
+    height: auto;
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+
+}
+
+.otherPortfolio1 h2{
+    color: white;
+    margin: 30px; 
+    font-size: 20px;
+    width: 70%;
+}
+
+.otherPortfolio1 p{
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    width: 90%;
+    display: block;
+    margin: 0px auto;
+
+}
+
+.galleryMain img{
+    width: 100%;
+    height: auto;
+   
+}
+
+.portfolioBtn{
+
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    margin: 30px auto 0px auto;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 50%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 900;   
+}
+
+
+
+}

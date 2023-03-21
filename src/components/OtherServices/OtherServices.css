@@ -1,0 +1,606 @@
+.mainOtherServicesBg{
+  background-color: black;
+
+}
+
+.otherServices{
+    display: flex;
+    padding: 60px 80px 0px 80px;
+    height: auto;  
+}
+
+.otherServicesContent{
+    width: 80%;
+}
+
+.serviceImg{
+  width: 70%;
+}
+
+.serviceImg img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: 30% 30%;
+
+}
+
+.otherServicesContent h1{
+    text-align: left;
+    font-family: "Karla";
+    font-size: 30px;
+    color: 	white;
+    padding-top: 30px;
+}
+
+.otherServicesContent h2{
+    font-size: 22px;
+    font-family: "Karla";
+    padding-top: 20px;
+}
+
+.otherServicesContent p{
+    text-align: left;
+    font-family: "Rubik";
+    font-size: 18px;
+    color: 	white;
+    padding-top: 10px;
+
+}
+
+.otherServicesContent1{
+    padding-left: 50px;
+    width: 90%;
+}
+
+.otherServicesContent2{
+    padding-left: 50px;
+    width: 90%;
+}
+
+.GalleryLearnMorebtn{
+    width: 20%;
+    background-color: transparent;
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 7px;
+    border-radius: 50px;
+    border: 1px solid white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.GalleryLearnMorebtn:hover{
+  color: grey;
+
+}
+
+
+.line-1 {
+    height: 1px;
+    background: white ;
+    width: 85%;
+    display: block;
+    margin: 30px auto 0px auto;
+  }
+
+
+  .line-2 {
+    height: 1px;
+    background: white ;
+    width: 85%;
+    display: block;
+    margin: 0px auto;
+  }
+
+
+
+  .NumbersSection{
+    padding: 30px;
+  }
+
+
+  .numbersHead{
+    position: fixed;
+    transform: rotate(-0.25turn);
+    margin-top: 40px;
+    margin-left: 100px;
+  }
+
+  .numbersHead p{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Rubik";
+  }
+
+  .NumbersSectionContent{
+    display: flex;
+    justify-content: center;
+  
+  }
+
+  .NumbersSectionContent1, .NumbersSectionContent2, .NumbersSectionContent3, .NumbersSectionContent4{
+    text-align: center;
+    padding-left: 50px;
+  }
+
+.NumbersSectionContent1_1{
+    display: flex;
+    text-align: center;
+}
+
+.NumbersSectionContent1_1 h1{
+    font-size: 50px;
+    font-family: "Rubik";
+}
+
+.vl {
+    border-left: 1px solid white;
+    height: 100px;
+    margin-left: 50px;
+  }
+
+  .serviceSvg1, .serviceSvg4{
+    width: 50px;
+    height: 50px;
+    padding-top: 25px;
+    padding-right: 15px;
+    font-weight: 900;
+    font-family: "Rubik";
+  }
+
+  .serviceSvg2, .serviceSvg3{
+    width: 60px;
+    height: 60px;
+    padding-top: 20px;
+    padding-right: 15px;
+    font-weight: 900;
+    font-family: "Rubik";
+
+  }
+
+
+  .mainOtherServices{
+    display: flex;
+    justify-content: center;
+    padding: 70px 90px ;
+
+
+  }
+
+  .mainOtherServices1{
+     width: 50%;
+  }
+
+  .mainOtherServices2{
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 70px;
+
+  }
+
+
+  .mainOtherServices2 h1{
+    font-size: 30px;
+    font-family: "Karla";
+    color: white;
+    padding-top: 30px;
+    width: 60%;
+  }
+
+  .mainOtherServicesContent1, .mainOtherServicesContent2, .mainOtherServicesContent3, .mainOtherServicesContent4{
+    display: flex;
+    padding-top: 20px;
+  }
+
+  .mainOtherServicesSvg{
+    width: 35px;
+    height: 35px;
+  }
+
+  .mainOtherServicesItem{
+    margin-left: 20px;
+
+  }
+
+  .mainOtherServicesItem h5{
+    font-size: 20px;
+    font-weight: 800;
+
+  }
+  .mainOtherServicesItem p{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    padding-top: 20px;
+
+  }
+
+  .mainOtherServicesBtn{
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        width: 35%;
+        padding: 10px;
+        font-size: 15px;
+        font-weight: 900;  
+        text-align: center;
+        margin-top: 20px;
+        cursor: pointer;
+  }
+
+.MiddleOtherServices{
+  display: flex;
+}
+
+.MiddleOtherServices img{
+  width: 33.3%;
+}
+
+
+
+@media only screen and (min-width: 710px) and (max-width: 1200px) {
+
+  .mainOtherServices{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 30px 0px;
+
+
+  }
+
+  .mainOtherServices1{
+     width: 80%;
+     display: block;
+     margin: 0px auto;
+     padding: 40px 0px;
+  }
+
+
+  .mainOtherServices2{
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 10px;
+    display: block;
+
+  }
+
+
+
+  .NumbersSectionContent{
+    display: block;
+    margin: 10px auto;
+
+  }
+
+  .NumbersSection{
+    padding: 10px 30px;
+  }
+
+
+  .NumbersSectionContent1, .NumbersSectionContent2, .NumbersSectionContent3, .NumbersSectionContent4{
+    text-align: left;
+    padding-left: 300px;
+  }
+
+
+.NumbersSectionContent1_1 h1{
+    font-size: 40px;
+    font-family: "Rubik";
+}
+
+.serviceSvg1, .serviceSvg4{
+width: 40px;
+height: 40px;
+padding-top: 20px;
+padding-right: 15px;
+font-weight: 900;
+font-family: "Rubik";
+}
+
+.serviceSvg2, .serviceSvg3{
+width: 45px;
+height: 45px;
+padding-top: 10px;
+padding-right: 15px;
+font-weight: 900;
+font-family: "Rubik";
+
+}
+    
+.vl {
+    border-left: none;
+    height: 1px;
+    background: white ;
+    width: 75%;
+    display: block;
+    margin: 10px auto;
+}
+
+.numbersHead{
+    position: absolute;
+    transform: rotate(-0.25turn);
+    margin-top: 200px;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: -1px;
+  }
+  
+
+.serviceSvg1, .serviceSvg4{
+  width: 20px;
+  height: 20px;
+  padding-top: 5px;
+  padding-right: 10px;
+  font-weight: 900;
+  font-family: "Rubik";
+}
+
+.serviceSvg2, .serviceSvg3{
+  width: 25px;
+  height: 25px;
+  padding-top: 5px;
+  padding-right: 10px;
+  font-weight: 900;
+  font-family: "Rubik";
+
+}
+
+
+.GalleryLearnMorebtn{
+  width: 50%;
+  background-color: transparent;
+  color: white;
+  margin-left: 50px;
+  margin-top: 30px;
+  padding: 7px;
+  border-radius: 50px;
+  border: 1px solid white;
+  font-size: 15px
+}
+
+.otherServicesContent{
+  width: 90%;
+}
+
+.otherServices{
+  display: flex;
+  padding: 60px 20px 0px 20px;
+  height: auto;  
+}
+
+.otherServicesContent h1{
+  text-align: center;
+  font-family: "Karla";
+  font-size: 25px;
+  color: 	white;
+  padding-top: 10px;
+  font-weight: 900;
+}
+
+.serviceImg img{
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  padding-top: 20px;
+  object-position: 30% 30%;
+
+}
+}
+
+
+
+@media only screen and (min-width: 100px) and (max-width: 700px){
+
+    .otherServices{
+        display: block;
+        padding: 10px;
+        margin: 0px auto;
+        height: auto;  
+    }
+
+
+    .otherServicesContent{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    
+    .serviceImg{
+        width: 90%;
+        display: block;
+        margin: 0px auto;
+    }
+
+    .otherServicesContent h1{
+        text-align: center;
+        font-size: 23px;
+    }
+    
+    .otherServicesContent h2{
+        font-size: 20px;
+    }
+
+    .otherServicesContent p{
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .otherServicesContent1{
+        padding-left: 60px;
+        width: 95%;
+    }
+    
+    .otherServicesContent2{
+        padding-left: 60px;
+        width: 95%;
+    }
+
+
+    .GalleryLearnMorebtn{
+        width: 40%;
+        background-color: transparent;
+        color: white;
+        margin-left: 60px;
+        margin-top: 20px;
+        padding: 7px;
+        border-radius: 50px;
+        border: 1px solid white;
+        font-size: 15px
+    }
+
+    .NumbersSectionContent{
+        display: block;
+        margin: 10px auto;
+    
+      }
+
+      .NumbersSection{
+        padding: 10px 30px;
+      }
+    
+
+    
+      .NumbersSectionContent1, .NumbersSectionContent2, .NumbersSectionContent3, .NumbersSectionContent4{
+
+        text-align: left;
+        padding-left: 120px;
+      }
+
+
+    .NumbersSectionContent1_1 h1{
+        font-size: 40px;
+        font-family: "Rubik";
+    }
+
+  .serviceSvg1, .serviceSvg4{
+    width: 40px;
+    height: 40px;
+    padding-top: 20px;
+    padding-right: 15px;
+    font-weight: 900;
+    font-family: "Rubik";
+  }
+
+  .serviceSvg2, .serviceSvg3{
+    width: 45px;
+    height: 45px;
+    padding-top: 10px;
+    padding-right: 15px;
+    font-weight: 900;
+    font-family: "Rubik";
+
+  }
+        
+    .vl {
+        border-left: none;
+        height: 1px;
+        background: white ;
+        width: 75%;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .numbersHead{
+        position: absolute;
+        transform: rotate(-0.25turn);
+        margin-top: 200px;
+        font-size: 20px;
+        font-weight: 800;
+        margin-left: -25px;
+      }
+
+     
+
+  .mainOtherServices{
+    display: block;
+    margin: 0px auto;
+    padding: 0px ;
+
+  }
+
+  .mainOtherServicesSvg{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  
+  }
+
+
+  .mainOtherServices1{
+    display: none;
+  }
+
+  .mainOtherServices2{
+    width: 80%;
+    margin: 0px auto;
+    padding-bottom: 20px;
+
+  }
+
+
+  .mainOtherServices2 h1{
+    font-size: 30px;
+    font-family: "Karla";
+    color: white;
+    padding-top: 30px;
+    width: 100%;
+  }
+
+  .mainOtherServicesContent1, .mainOtherServicesContent2, .mainOtherServicesContent3, .mainOtherServicesContent4{
+    display: block;
+    margin: 20px auto;
+  }
+
+  .mainOtherServicesSvg{
+    width: 35px;
+    height: 35px;
+  }
+
+  .mainOtherServicesItem{
+    margin-left: 20px;
+
+  }
+
+  .mainOtherServicesItem h5{
+    font-size: 20px;
+    font-weight: 800;
+
+  }
+  .mainOtherServicesItem p{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    padding-top: 20px;
+
+  }
+
+  .mainOtherServicesBtn{
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        width: 35%;
+        padding: 10px;
+        font-size: 15px;
+        font-weight: 900;  
+        text-align: center;
+        margin-top: 20px;
+        cursor: pointer;
+  }
+
+.MiddleOtherServices{
+  display: flex;
+}
+
+.MiddleOtherServices img{
+  width: 33.5%;
+  height: auto;
+}
+
+    
+
+}

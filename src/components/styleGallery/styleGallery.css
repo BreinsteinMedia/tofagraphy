@@ -1,0 +1,138 @@
+  .galleryWrap {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 20px;
+  }
+
+  .galleryWrap .single {
+    cursor: pointer;
+  }
+  
+  .galleryWrap .single img {
+    max-width: 100%;
+  }
+  
+  .galleryWrap .single img:hover {
+    transform: scale(1.02);
+  }
+  
+  .sliderWrap {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .sliderWrap .btnClose, .sliderWrap .btnPrev, .sliderWrap .btnNext {
+    position: fixed;
+    cursor: pointer;
+    opacity: 0.6;
+    color: #fff;
+    z-index: 9999;
+  }
+  
+  .btnNext:hover, .btnPrev:hover, .btnClose:hover {
+    opacity: 1;
+  }
+  
+  .sliderWrap .btnClose {
+    top: 40px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .sliderWrap .btnPrev {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 40px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .sliderWrap .btnNext {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 40px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .fullScreenImage {
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fullScreenImage img {
+    max-width: 100%;
+    max-height: 100%;
+    pointer-events: none;
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;  
+  }
+
+
+  .backToGalleryBtn{
+
+        width: 50%;
+        background-color: white;
+        padding: 10px;
+        color: black;
+        display: block;
+        margin: 25px auto;
+        border-radius: 50px;
+        border: 1px solid white;
+        font-size: 15px;
+        text-align: center;
+        cursor: pointer;
+
+  }
+
+
+  @media only screen and (min-width: 100px) and (max-width: 700px){
+
+    .galleryWrap {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      margin: 20px auto;
+      padding: 0px 20px;
+    }
+  
+    .backToGalleryBtn{
+
+      width: 40%;
+      background-color: white;
+      padding: 10px;
+      color: black;
+      display: block;
+      margin: 25px auto;
+      border-radius: 50px;
+      border: 1px solid white;
+      font-size: 15px;
+      text-align: center;
+      cursor: pointer;
+
+}
+
+  }

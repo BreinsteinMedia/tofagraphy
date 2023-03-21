@@ -1,0 +1,46 @@
+.testimonial .slick-arrow.slick-prev,
+.testimonial .slick-arrow.slick-next {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  border-radius: 5px;
+}
+.testimonial .slick-prev::before,
+.testimonial .slick-next::before {
+  display: none;
+}
+.testimonial .slick-arrow.slick-next {
+  right: -70px;
+}
+.testimonial .slick-arrow.slick-prev {
+  left: -70px;
+}
+
+.sliderMain .slick-dots li button::before {
+  color: #fff !important;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.slick-dots li.slick-active button::before {
+  color: #fff !important;
+}
+
+.testimonialStar{
+    display: flex;
+    justify-content: center;
+    color: gold;
+    padding-top: 10px;
+}
+
+.testimonialP{
+  font-size: 25px;
+  color: white;
+}
+
+.testimonial{
+  background-color: black;
+}

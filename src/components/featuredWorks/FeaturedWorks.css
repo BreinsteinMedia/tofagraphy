@@ -1,0 +1,375 @@
+.featuredWorksContent{
+    display: block;
+    margin: 0px auto;
+    
+}
+
+#FeaturedWorks{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: black;
+    height: auto;
+}
+
+#FeaturedWorks h5{
+    text-align: center;
+    font-family: "Rubik";
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+
+#FeaturedWorks h1{
+    text-align: center;
+    font-family: "Karla";
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 10px;
+
+}
+
+.featuredWorksContent h4{
+    font-family: "Rubik";
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 800;
+
+}
+
+.featuredWorksContent1, .featuredWorksContent2, .featuredWorksContent3,
+.featuredWorksContent4, .featuredWorksContent5, .featuredWorksContent6,
+.featuredWorksContent7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+}
+
+
+/* maternity */
+.maternityShoot1 img{
+
+
+    width: 650px;
+    height: 450px;
+    object-fit: cover;
+    object-position: 30% 30%;
+    display: block;
+    margin: 0px auto;
+   
+}
+
+.maternityShoot1{
+    margin-right: 20px;
+}
+
+.maternityShoot2 img{
+    
+    width: 650px;
+    height: 450px;
+    object-fit: cover;
+    object-position: 30% 30%;
+    display: block;
+    margin: 0px auto;
+}
+
+.maternityShoot2{
+    margin-left: 20px;
+}
+
+
+
+/* wedding */
+.weddingShoot1 img{
+  
+    width: 650px;
+    height: 450px;
+    object-fit: cover;
+    object-position: 30% 30%;
+    display: block;
+    margin: 0px auto;
+}
+
+.weddingShoot1{
+    margin-right: 20px;
+}
+
+.weddingShoot2 img{
+   
+    width: 650px;
+    height: 450px;
+    object-fit: cover;
+    object-position: 30% 30%;
+    display: block;
+    margin: 0px auto;
+}
+
+.weddingShoot2{
+    margin-left: 20px;
+}
+
+
+
+/* birthday */
+.birthdayShoot1 img{
+  
+    width: 650px;
+    height: 450px;
+    object-fit: cover;
+    object-position: 30% 30%;
+    display: block;
+    margin: 0px auto;
+   
+}
+
+.birthdayShoot1{
+    margin-right: 20px;
+}
+
+.birthdayShoot2 img{
+   
+    width: 650px;
+    height: 450px;
+    object-fit: cover;
+    object-position: 30% 30%;
+    display: block;
+    margin: 0px auto;
+}
+
+.birthdayShoot2{
+    margin-left: 20px;
+}
+
+
+
+/* outdoor */
+.outdoorShoot1 img{
+ 
+    width: 650px;
+    height: 450px;
+    object-fit: cover;
+    object-position: 30% 30%;
+    display: block;
+    margin: 0px auto;
+   
+}
+
+.outdoorShoot1{
+    margin-right: 20px;
+}
+
+.outdoorShoot2 img{
+
+    width: 650px;
+    height: 450px;
+    object-fit: cover;
+    object-position: 30% 30%;
+    display: block;
+    margin: 0px auto;
+}
+
+.outdoorShoot2{
+    margin-left: 20px;
+}
+
+
+
+/* lifestyle */
+.lifestyleShoot1 img{
+   
+    width: 650px;
+    height: 450px;
+    object-fit: cover;
+    object-position: 30% 30%;
+    display: block;
+    margin: 0px auto;
+   
+}
+
+.lifestyleShoot1{
+    margin-right: 20px;
+}
+
+.lifestyleShoot2 img{
+  
+    width: 650px;
+    height: 450px;
+    object-fit: cover;
+    object-position: 30% 30%;
+    display: block;
+    margin: 0px auto;
+}
+
+.lifestyleShoot2{
+    margin-left: 20px;
+}
+
+
+
+/* campaign */
+
+.campaignShoot1 img{
+    
+    width: 650px;
+    height: 450px;
+    object-fit: cover;
+    object-position: 30% 30%;
+    display: block;
+    margin: 0px auto;
+   
+}
+
+.campaignShoot1{
+    margin-right: 20px;
+}
+
+.campaignShoot2 img{
+   
+    width: 650px;
+    height: 450px;
+    object-fit: cover;
+    object-position: 30% 30%;
+    display: block;
+    margin: 0px auto;
+}
+
+.campaignShoot2{
+    margin-left: 20px;
+}
+
+
+
+/* studio */
+
+.studioShoot1 img{
+   
+    width: 650px;
+    height: 450px;
+    object-fit: cover;
+    object-position: 30% 30%;
+    display: block;
+    margin: 0px auto;
+   
+}
+
+.studioShoot1{
+    margin-right: 20px;
+}
+
+.studioShoot2 img{
+   
+    width: 650px;
+    height: 450px;
+    object-fit: cover;
+    object-position: 30% 30%;
+    display: block;
+    margin: 0px auto;
+}
+
+
+.studioShoot2{
+    margin-left: 20px;
+}
+
+
+.featuredWorkBtn{
+        width: 10%;
+        background-color: white;
+        padding: 5px;
+        color: black;
+        display: block;
+        margin: 0px auto;
+        border-radius: 50px;
+        border: 1px solid white;
+        font-size: 15px;
+        text-align: center;
+}
+
+.featuredWorkBtn:hover{
+    color: grey;
+}
+
+
+.backToGalleryBtn{
+
+}
+
+.worksBtn{
+background-color: black;
+height: auto;
+padding-bottom: 30px;
+}
+
+
+@media only screen and (min-width: 710px) and (max-width: 1200px) {
+
+   
+    #FeaturedWorks{
+        padding: 30px;
+        background-color: black;
+    }
+    
+
+    .featuredWorkBtn{
+        width: 30%;
+        background-color: white;
+        padding: 10px;
+        color: black;
+        display: block;
+        margin: 25px auto;
+        border-radius: 50px;
+        border: 1px solid white;
+        font-size: 15px;
+        text-align: center;
+}
+
+.featuredWorksContent{
+    display: block;
+    margin: 0px auto;
+    padding-top: 10px;
+    
+}
+
+}
+
+
+@media only screen and (min-width: 100px) and (max-width: 700px){
+
+.featuredWorksContent1, .featuredWorksContent2, .featuredWorksContent3,
+.featuredWorksContent4, .featuredWorksContent5, .featuredWorksContent6,
+.featuredWorksContent7 {
+    display: block;
+    margin: 10px auto;
+}
+
+
+.maternityShoot1, .birthdayShoot1, .campaignShoot1, 
+.studioShoot1, .lifestyleShoot1, .outdoorShoot1, .weddingShoot1{
+    margin-right: 0px;
+    padding: 10px 20px;
+}
+
+.maternityShoot2, .birthdayShoot2, .campaignShoot2, 
+.studioShoot2, .lifestyleShoot2, .outdoorShoot2, .weddingShoot2{
+    margin-left: 0px;
+    padding: 10px 20px;
+}
+
+
+.featuredWorkBtn{
+    width: 30%;
+    background-color: white;
+    padding: 5px;
+    color: black;
+    display: block;
+    margin: 25px auto;
+    border-radius: 50px;
+    border: 1px solid white;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+}

@@ -1,0 +1,246 @@
+.serviceSectionInnerContent{
+    display: flex;
+    padding: 50px;
+    height: auto;  
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceSectionInnerMostContent{
+    width: 80%;
+    margin-left: 100px;
+
+}
+
+.serviceSectionImg1{
+    width: 100%;
+}
+
+.serviceSectionImg1 img{
+    width: 500px;
+    height: 450px;
+    object-fit: cover;
+    object-position: 30% 30%;
+    margin-left: 20px;
+}
+
+
+.serviceSectionInnerMostContent h4{
+    font-size: 20px;
+    text-align: center;
+    font-family: "Rubik";
+}
+
+
+.serviceSectionInnerMostContent h1{
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Karla";
+}
+
+.theServiceContMain{
+    display: flex;
+}
+
+.theServiceCont{
+    display: block;
+    margin: 20px auto;
+}
+
+.theServiceContSvg{
+    display: block;
+    margin: 20px auto;
+    width: 50px;
+    height: 50px;
+}
+
+.theServiceCont p{
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+    width: 70%;
+
+}
+
+
+.ServicesCreate{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    padding: 50px 20px 20px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.ServicesCreateContent{
+    width: 70%;
+    display: flex;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+.ServicesCreateImg{
+    width: 100%;
+    padding-right: 50px;
+}
+
+#ServicesCreateImg{
+    width: 800px;
+    height: 500px;  
+}
+
+.ServicesCreateContentSvg{
+    color: white;
+    width: 100px ;
+    height: 100px;
+    padding-top: 60px;
+}
+
+.ServicesCreateContent h1{
+    color: white;
+    font-size: 35px;
+    padding-top: 80px;
+    padding-left: 10px;
+}
+
+
+@media only screen and (min-width: 540px) and (max-width: 1024px){
+    
+
+
+    .serviceSectionInnerContent{
+        display: block;
+        padding: 60px 50px 0px 50px;
+        height: auto;  
+    }
+
+
+    .serviceSectionInnerMostContent{
+        width: 100%;
+        margin-left: 0px;
+        padding-top: 30px;
+    
+    }
+    
+    .serviceSectionImg1{
+        width: 100%;
+    }
+
+    #serviceSectionAnimation{
+        width: 600px;
+        height: 400px;
+        margin-left: 0px;
+    }
+
+    .ServicesCreateContent{
+        width: 100%;
+        display: flex;
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .ServicesCreate{
+        background-color: black;
+        width: 100%;
+        height: auto;
+        padding: 10px 20px;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .serviceSectionInnerMostContent h1{
+        width: 100%;
+        display: block;
+        margin: 10px auto;
+        font-size: 20px;
+        text-align: center;
+        font-family: "Karla";
+    }
+    
+    .ServicesCreateImg{
+        display: block;
+        margin: 0px auto;
+        width: 80%;
+        padding-right: 0px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    
+    .serviceSectionImg1 img{
+        display: block;
+        width: 500px;
+        height: 450px;
+        object-fit: cover;
+        object-position: 30% 30%;
+        margin: 0px auto;
+        
+    }
+}
+
+
+@media only screen and (min-width: 100px) and (max-width: 425px){
+
+    .serviceSectionInnerContent{
+        display: block;
+        padding: 60px 50px 0px 50px;
+        height: auto;  
+    }
+
+
+    .serviceSectionInnerMostContent{
+        width: 100%;
+        margin-left: 0px;
+      
+    
+    }
+    
+    .serviceSectionImg1{
+        width: 100%;
+    }
+
+    #serviceSectionAnimation{
+        width: 600px;
+        height: 400px;
+        margin-left: 0px;
+    }
+
+    .ServicesCreateContent{
+        width: 100%;
+        display: flex;
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .ServicesCreate{
+        background-color: black;
+        width: 100%;
+        height: auto;
+        padding: 10px 20px;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .serviceSectionInnerMostContent h1{
+        width: 100%;
+        display: block;
+        margin: 10px auto;
+        font-size: 20px;
+        text-align: center;
+        font-family: "Karla";
+    }
+    
+    .ServicesCreateImg{
+        width: 100%;
+        padding-right: 0px;
+        padding-top: 30px;
+    }
+    
+    
+}

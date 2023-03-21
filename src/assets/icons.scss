@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+
+span.menu-control-open {
+    position: relative;
+    font-size: .8rem;
+    float: right;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: block;
+    margin: 0;
+    padding: 16px 8px;
+    
+    // svg {
+    //     position: absolute;
+    //     top: -10px;
+    //     left: 20px;
+    //     line, circle {
+    //         fill: none;
+    //         stroke: black;
+    //         stroke-width: 3;
+    //     }
+    // }
+    // &:before {
+    //     padding-top: 1px;
+    // }
+    // &:before, &:after {
+    //     content: '';
+    //     display: block;
+    //     width: 100%;
+    //     border-top: 3px solid white;
+    // }
+    p{
+        color: white;
+        
+    }
+    
+  }
+
+  @media screen and (max-width:420px){
+
+
+span.menu-control-open {
+    position: relative;
+    font-size: .6rem;
+    float: right;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: block;
+    margin: 0;
+    padding: 16px 8px;
+}
+
+  }
