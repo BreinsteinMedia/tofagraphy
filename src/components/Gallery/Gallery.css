@@ -1,3 +1,4 @@
+
 *{
   margin: 0;
   padding:0;
@@ -10,6 +11,7 @@
   width:100%;
   height: 100vh;
   animation: slide 30s infinite;
+  
 }
 
 .content{
@@ -29,37 +31,149 @@
 }
 
 .principal h1{
-  font-size: 70px;
-  margin-bottom: 20px;
+  /* font-size: 70px;
+  margin-bottom: 20px; */
+  font-size: 60px;
+  font-weight: 900;
+  color: white;
+  font-family: "Karla";
 }
 
-.principal p{
-  font-size: 20px;
+.principal h4{
+  /* font-size: 20px; */
+  font-size: 25px;
+  color: white;
+  font-family: "Rubik";
 }
+
+.GalleryBtn{
+
+  display: block;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  margin: 15px auto 10px auto;
+  border: 1px solid white;
+  border-radius: 50px;
+  width: 40%;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 900; 
+  cursor: pointer;  
+}
+.gbtn{
+position: relative;
+
+}
+
+.GalleryBtn:hover{
+  color: grey;
+
+} 
+
 
 @keyframes slide  {
   0%{
-    background-image: url("../images/IMG_0149.jpg");
+    background-image: url("../../images/IMG_2512.jpg");
   }
   20%{
-    background-image: url("../images/IMG_0209.jpg");
+    background-image: url("../../images/IMG_9186.jpg");
   }
   20.1%{
-      background-image: url("../images/IMG_1054.jpg");
-    }
+      background-image: url("../../images/IMG_2022.jpg");
+ }
     40%{
-      background-image: url("../images/IMG_1420.jpg");
+   background-image: url("../../images/IMG_2285.jpg");
     }
     40.1%{
-      background-image: url("../images/IMG_2022.jpg");
+     background-image: url("../../images/IMG_2291.jpg");
     }
     60%{
-      background-image: url("../images/IMG_2285.jpg");
+      background-image: url("../../images/IMG_2737.jpg");
     }
     60.1%{
-        background-image: url("../images/IMG_2291.jpg");
+        background-image: url("../../images/IMG_3311.jpg");
       }
       80%{
-        background-image: url("../images/IMG_2512.jpg");
+        background-image: url("../../images/IMG_0149.jpg");
       }
+      0%{
+        background-image: url("../../images/IMG_0209.jpg");
+      }
+      20%{
+        background-image: url("../../images/IMG_6151.jpg");
+      }
+      20.1%{
+          background-image: url("../../images/IMG_6177.jpg");
+        }
+        40%{
+          background-image: url("../../images/IMG_1420.jpg");
+        }
+        40.1%{
+          background-image: url("../../images/IMG_7937.jpg");
+        }
+        60%{
+          background-image: url("../../images/IMG_3157.jpg");
+        }
+        60.1%{
+            background-image: url("../../images/IMG_1054.jpg");
+          }
+          80%{
+            background-image: url("../../images/WAL07779.jpg");
+          }
+          /* Third Batch */
+          0%{
+            background-image: url("../../images/IMG_8808.jpg");
+          }
+          20%{
+            background-image: url("../../images/IMG_6271.jpg");
+          }
+          20.1%{
+              background-image: url("../../images/IMG_9717.jpg");
+            }
+            40%{
+              background-image: url("../../images/IMG_2582.jpg");
+            }
+            40.1%{
+              background-image: url("../../images/WAL07633.jpg");
+            }
+            60%{
+              background-image: url("../../images/IMG_9455.jpg");
+            }
+            60.1%{
+                background-image: url("../../images/IMG_8523.jpg");
+              }
+              80%{
+                background-image: url("../../images/IMG_6523.jpg");
+              }
+              80%{
+                background-image: url("../../images/IMG_6449.jpg");
+              }
+}
+
+
+@media (min-width:100px) and (max-width:700px){
+    .principal h1{
+      font-size: 35px;
+      font-weight: 900;
+      color: white;
+      font-family: "Karla";
+    }
+
+    .principal h4{
+      font-size: 15px;
+      font-weight: 600;
+      color: white;
+      font-family: "Rubik";
+    }
+
+    .GalleryBtn{
+      background-color: transparent;
+      color: white;
+      border: 1px solid white;
+      border-radius: 50px;
+      font-size: 15px;
+      width: 70%;
+  
+  }
 }
