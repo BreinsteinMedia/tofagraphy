@@ -22,7 +22,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Run react build script
-      run: npm install && npm run build
+      run: npm config set legacy-peer-deps true && npm install && npm build
       env:
         CI: false
 
