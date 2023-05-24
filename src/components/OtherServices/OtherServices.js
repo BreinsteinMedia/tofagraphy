@@ -9,7 +9,7 @@ import { Slide } from "react-awesome-reveal";
 import Tofa2 from "../../images/tofa1.jpg"
 import Tofa from "../../images/tofa2.jpg"
 import Maternity from "../../images/maternity/IMG_1426.jpg"
-import Wedding from "../../images/wedding/IMG_0209.jpg"
+import Wedding from "../../images/IMG_0209.jpg"
 import Birthday from "../../images/birthday/IMG_2512.jpg"
 
 
