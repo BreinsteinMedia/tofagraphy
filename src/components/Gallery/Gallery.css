@@ -19,6 +19,7 @@
   width:100%;
   height:100vh;
   background-color: rgba(0, 0, 0, 0.5);
+  object-fit: cover;
 }
 
 .principal{
@@ -75,16 +76,20 @@ position: relative;
 @keyframes slide  {
   0%{
     background-image: url("../../images/wedding/IMG_2512.jpg");
+
   }
   20%{
     background-image: url("../../images/IMG_9186.jpg");
+  
   }
   20.1%{
       background-image: url("../../images/IMG_2022.jpg");
- }
+    
+    }
     40%{
    background-image: url("../../images/IMG_2285.jpg");
-    }
+   
+  }
     40.1%{
      background-image: url("../../images/IMG_2291.jpg");
     }

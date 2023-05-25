@@ -1,6 +1,6 @@
 import React from 'react'
 import {AiFillCamera} from 'react-icons/ai'
-import {RiPlantLine, RiEqualizerLine} from 'react-icons/ri'
+// import {RiPlantLine, RiEqualizerLine} from 'react-icons/ri'
 import {FaPhotoVideo} from 'react-icons/fa'
 import {TbPlant} from 'react-icons/tb'
 import "./OurServices.css"
