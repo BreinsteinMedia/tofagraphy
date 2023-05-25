@@ -74,7 +74,7 @@ position: relative;
 
 @keyframes slide  {
   0%{
-    background-image: url("../../images/IMG_2512.jpg");
+    background-image: url("../../images/wedding/IMG_2512.jpg");
   }
   20%{
     background-image: url("../../images/IMG_9186.jpg");
@@ -98,7 +98,7 @@ position: relative;
         background-image: url("../../images/IMG_0149.jpg");
       }
       0%{
-        background-image: url("../../images/IMG_0209.jpg");
+        background-image: url("../../images/wedding/IMG_0209.jpg");
       }
       20%{
         background-image: url("../../images/IMG_6151.jpg");
@@ -138,7 +138,7 @@ position: relative;
               background-image: url("../../images/WAL07633.jpg");
             }
             60%{
-              background-image: url("../../images/IMG_9455.jpg");
+              background-image: url("../../images/wedding/IMG_9455.jpg");
             }
             60.1%{
                 background-image: url("../../images/IMG_8523.jpg");
