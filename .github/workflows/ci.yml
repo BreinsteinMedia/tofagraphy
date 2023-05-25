@@ -28,11 +28,12 @@ jobs:
         npm config set legacy-peer-deps true 
         npm install  
         npm run build
+      env:
+        CI: false  
     
     - name: List output files
       run: find build/ -print
-      env:
-        CI: false
+     
 
     # Runs a set of commands using the runners shell
     - name: FTP-Deploy-Action
