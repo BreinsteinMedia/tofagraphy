@@ -24,7 +24,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     
     - name: Copy .env.prod.example to .env
-      run: cp .env.prod.example .env
+      run: cp ."env.prod.example/"* ~/.env
 
     - name: 🔨 Build Project 
       run: |
