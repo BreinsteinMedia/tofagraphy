@@ -1,28 +1,39 @@
-# This is a basic workflow to help you get started with Actions
+name: 🚀 Deploy on push master
 
-name: Build and Deploy React App via FTP
-
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
-on:
+on: 
   push:
-    branches: [ master ]
+    branches:    
+      - master 
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build-and-deploy"
-  build-and-deploy:
-    # The type of runner that the job will run on
+  web-deploy:
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    
+    strategy:
+      matrix:
+        node-version: [16.x]
+    
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v3
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2
 
-    # Runs a single command using the runners shell
-    - name: Run react build script
-      run: npm config set legacy-peer-deps true && npm install && npm run build
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@master
+      with:
+        node-version: ${{ matrix.node-version }}
+    
+    - name: Copy .env.prod.example to .env
+      run: cp .env.prod.example .env
+
+    - name: 🔨 Build Project 
+      run: |
+        npm config set legacy-peer-deps true 
+        npm install  
+        npm run build
+    
+    - name: List output files
+      run: find build/ -print
       env:
         CI: false
 
