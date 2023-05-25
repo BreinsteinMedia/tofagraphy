@@ -30,7 +30,7 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server: ftp://tofagraphy.com
+        server: tofagraphy.com
         username: deploy@tofagraphy.com
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: build/
