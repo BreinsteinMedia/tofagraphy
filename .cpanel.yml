@@ -4,3 +4,6 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/tofagrap/public_html/
     - /bin/cp -R build $DEPLOYPATH
+    - /bin/cp public/logo.png $DEPLOYPATH
+    - /bin/cp public/manifest.json $DEPLOYPATH
+    - /bin/cp public/robots.txt $DEPLOYPATH
