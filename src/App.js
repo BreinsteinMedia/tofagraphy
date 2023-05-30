@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 //General
 import Header from "./components/Header/Header"
-import Footer from "./components/Footer/Footer"
+// import Footer from "./components/Footer/Footer"
 import ScrollButton from "./components/ScrollButton/MainScrollUpBtn"
 import { BsWhatsapp, BsInstagram, BsTwitter } from 'react-icons/bs';
 import {  FiPhoneCall } from "react-icons/fi";
@@ -33,7 +33,7 @@ const App = () => {
   return (
     <> 
 
-    <div class="icon-bar">
+    {/* <div class="icon-bar">
       <a href="https://www.instagram.com/tofagraphy" target="blank" className="instagram">
         <BsInstagram />
       </a>
@@ -46,7 +46,7 @@ const App = () => {
         <a href="https://www.twitter.com/tofagraphy" target="blank" className="instagram">
           <BsTwitter/>
         </a>
-    </div>
+    </div> */}
 
       <Router>
       <ScrollToTop> 
@@ -73,7 +73,7 @@ const App = () => {
         <Route path='/campaign' element={<CampaignPics/>} />
 
         </Routes>
-        <Footer/>
+        {/* <Footer/> */}
         </ScrollToTop>
     </Router>
 
