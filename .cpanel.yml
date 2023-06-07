@@ -5,7 +5,7 @@ deployment:
     - export DEPLOYPATH=/home/tofagrap/public_html/
     - /bin/cp build/index.html $DEPLOYPATH
     - /bin/cp build/asset-manifest.json $DEPLOYPATH
-    - /bin/cp build/static $DEPLOYPATH
+    - /bin/cp -R build/static $DEPLOYPATH
     - /bin/cp build/logo.png $DEPLOYPATH
     - /bin/cp build/manifest.json $DEPLOYPATH
     - /bin/cp build/robots.txt $DEPLOYPATH
