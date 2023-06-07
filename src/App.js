@@ -5,8 +5,8 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Header from "./components/Header/Header"
 // import Footer from "./components/Footer/Footer"
 import ScrollButton from "./components/ScrollButton/MainScrollUpBtn"
-import { BsWhatsapp, BsInstagram, BsTwitter } from 'react-icons/bs';
-import {  FiPhoneCall } from "react-icons/fi";
+// import { BsWhatsapp, BsInstagram, BsTwitter } from 'react-icons/bs';
+// import {  FiPhoneCall } from "react-icons/fi";
 import "./index.css"
 import ScrollToTop from "./components/ScrollToTop";
 
